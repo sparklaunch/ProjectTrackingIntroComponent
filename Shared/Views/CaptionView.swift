@@ -25,7 +25,7 @@ struct CaptionView: View {
     }
 }
 
-struct TitleView_Previews: PreviewProvider {
+struct CaptionView_Previews: PreviewProvider {
     static var previews: some View {
         CaptionView()
             .padding()

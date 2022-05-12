@@ -13,10 +13,12 @@ struct TitleView: View {
             Text("POWERFUL INSIGHTS INTO YOUR TEAM")
                 .font(.largeTitle.weight(.heavy))
                 .foregroundColor(Color("TitleColor"))
+                .fixedSize(horizontal: false, vertical: true)
             Text("Project planning and time tracking for agile teams")
                 .font(.title3)
                 .foregroundColor(Color("BodyColor"))
                 .lineSpacing(5)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }

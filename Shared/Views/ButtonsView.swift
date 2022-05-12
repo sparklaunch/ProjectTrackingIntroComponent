@@ -14,19 +14,19 @@ struct ButtonsView: View {
                 // TODO: SCHEDULE A DEMO BUTTON.
             } label: {
                 Text("SCHEDULE A DEMO")
-                    .lineLimit(1)
                     .font(.footnote.bold())
                     .foregroundColor(.white)
                     .padding()
                     .padding(.horizontal)
                     .background(Color("ButtonColor"))
                     .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                    .fixedSize(horizontal: false, vertical: true)
             }
             Text("TO SEE A PREVIEW")
                 .kerning(1)
                 .font(.footnote.bold())
                 .foregroundColor(Color("CaptionColor"))
-                .fixedSize(horizontal: true, vertical: false)
+                .fixedSize(horizontal: true, vertical: true)
         }
         .padding(.vertical)
     }

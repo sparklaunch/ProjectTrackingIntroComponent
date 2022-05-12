@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var globalState: GlobalState = .init()
     var body: some View {
         ZStack(alignment: .top) {
             BackgroundView()
@@ -22,11 +23,13 @@ struct ContentView: View {
                 .padding(24)
             }
         }
+        .environmentObject(globalState)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(GlobalState())
     }
 }

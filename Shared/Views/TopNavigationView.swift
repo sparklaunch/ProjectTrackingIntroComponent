@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TopNavigationView: View {
+    @EnvironmentObject private var globalState: GlobalState
     var body: some View {
         HStack {
             Image("Logo")
@@ -16,12 +17,14 @@ struct TopNavigationView: View {
                 .frame(height: 30)
             Spacer()
             Button {
-                // TODO: HAMBURGER BUTTON.
+                withAnimation {
+                    globalState.isMenuExpanded.toggle()
+                }
             } label: {
-                Image("Hamburger")
+                Image(globalState.isMenuExpanded ? "Close" : "Hamburger")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 20)
+                    .frame(width: 30)
             }
         }
         .padding(24)
@@ -31,6 +34,7 @@ struct TopNavigationView: View {
 struct TopNavigationView_Previews: PreviewProvider {
     static var previews: some View {
         TopNavigationView()
+            .environmentObject(GlobalState())
             .previewLayout(.sizeThatFits)
     }
 }

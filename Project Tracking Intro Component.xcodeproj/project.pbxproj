@@ -19,6 +19,7 @@
 		90D4F20E282C949D003B7048 /* CaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F20D282C949D003B7048 /* CaptionView.swift */; };
 		90D4F210282C95A6003B7048 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F20F282C95A6003B7048 /* TitleView.swift */; };
 		90D4F212282C9663003B7048 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F211282C9663003B7048 /* ButtonsView.swift */; };
+		90D4F214282C9965003B7048 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F213282C9965003B7048 /* GlobalState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		90D4F20D282C949D003B7048 /* CaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionView.swift; sourceTree = "<group>"; };
 		90D4F20F282C95A6003B7048 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		90D4F211282C9663003B7048 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		90D4F213282C9965003B7048 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		90D4F206282C90CD003B7048 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90D4F213282C9965003B7048 /* GlobalState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				90D4F20C282C944B003B7048 /* IllustrationView.swift in Sources */,
 				90D4F20A282C939A003B7048 /* TopNavigationView.swift in Sources */,
+				90D4F214282C9965003B7048 /* GlobalState.swift in Sources */,
 				90D4F208282C9267003B7048 /* BackgroundView.swift in Sources */,
 				90D4F210282C95A6003B7048 /* TitleView.swift in Sources */,
 				90D4F1F8282C90AF003B7048 /* ContentView.swift in Sources */,

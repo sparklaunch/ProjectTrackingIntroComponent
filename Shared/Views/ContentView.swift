@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var globalState: GlobalState = .init()
+    @StateObject private var menuStorage: MenuStorage = .init()
     var body: some View {
         ZStack(alignment: .top) {
             BackgroundView()
@@ -22,8 +23,13 @@ struct ContentView: View {
                 }
                 .padding(24)
             }
+            if globalState.isMenuExpanded {
+                MenuView()
+                    .padding(.top, 60)
+            }
         }
         .environmentObject(globalState)
+        .environmentObject(menuStorage)
     }
 }
 
@@ -31,5 +37,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .environmentObject(GlobalState())
+            .environmentObject(MenuStorage())
     }
 }

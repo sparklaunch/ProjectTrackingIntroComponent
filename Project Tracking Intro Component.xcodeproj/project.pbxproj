@@ -20,6 +20,8 @@
 		90D4F210282C95A6003B7048 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F20F282C95A6003B7048 /* TitleView.swift */; };
 		90D4F212282C9663003B7048 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F211282C9663003B7048 /* ButtonsView.swift */; };
 		90D4F214282C9965003B7048 /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F213282C9965003B7048 /* GlobalState.swift */; };
+		90D4F216282C9A1F003B7048 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F215282C9A1F003B7048 /* MenuView.swift */; };
+		90D4F218282C9A4E003B7048 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F217282C9A4E003B7048 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		90D4F20F282C95A6003B7048 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		90D4F211282C9663003B7048 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		90D4F213282C9965003B7048 /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		90D4F215282C9A1F003B7048 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		90D4F217282C9A4E003B7048 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				90D4F20D282C949D003B7048 /* CaptionView.swift */,
 				90D4F20F282C95A6003B7048 /* TitleView.swift */,
 				90D4F211282C9663003B7048 /* ButtonsView.swift */,
+				90D4F215282C9A1F003B7048 /* MenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				90D4F213282C9965003B7048 /* GlobalState.swift */,
+				90D4F217282C9A4E003B7048 /* Menu.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 				90D4F214282C9965003B7048 /* GlobalState.swift in Sources */,
 				90D4F208282C9267003B7048 /* BackgroundView.swift in Sources */,
 				90D4F210282C95A6003B7048 /* TitleView.swift in Sources */,
+				90D4F218282C9A4E003B7048 /* Menu.swift in Sources */,
+				90D4F216282C9A1F003B7048 /* MenuView.swift in Sources */,
 				90D4F1F8282C90AF003B7048 /* ContentView.swift in Sources */,
 				90D4F1F6282C90AF003B7048 /* ProjectTrackingIntroComponentApp.swift in Sources */,
 				90D4F212282C9663003B7048 /* ButtonsView.swift in Sources */,

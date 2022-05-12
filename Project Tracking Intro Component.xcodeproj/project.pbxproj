@@ -14,6 +14,7 @@
 		90D4F1FA282C90AF003B7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4F1E8282C90AF003B7048 /* Assets.xcassets */; };
 		90D4F1FB282C90AF003B7048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4F1E8282C90AF003B7048 /* Assets.xcassets */; };
 		90D4F208282C9267003B7048 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F207282C9267003B7048 /* BackgroundView.swift */; };
+		90D4F20A282C939A003B7048 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F209282C939A003B7048 /* TopNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		90D4F1F3282C90AF003B7048 /* Project Tracking Intro Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Tracking Intro Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F1F5282C90AF003B7048 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		90D4F207282C9267003B7048 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		90D4F209282C939A003B7048 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				90D4F1E7282C90AE003B7048 /* ContentView.swift */,
 				90D4F207282C9267003B7048 /* BackgroundView.swift */,
+				90D4F209282C939A003B7048 /* TopNavigationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D4F20A282C939A003B7048 /* TopNavigationView.swift in Sources */,
 				90D4F208282C9267003B7048 /* BackgroundView.swift in Sources */,
 				90D4F1F8282C90AF003B7048 /* ContentView.swift in Sources */,
 				90D4F1F6282C90AF003B7048 /* ProjectTrackingIntroComponentApp.swift in Sources */,

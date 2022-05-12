@@ -19,8 +19,8 @@
 		90D4F1E6282C90AE003B7048 /* ProjectTrackingIntroComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTrackingIntroComponentApp.swift; sourceTree = "<group>"; };
 		90D4F1E7282C90AE003B7048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90D4F1E8282C90AF003B7048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90D4F1ED282C90AF003B7048 /* ProjectTrackingIntroComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTrackingIntroComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90D4F1F3282C90AF003B7048 /* ProjectTrackingIntroComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTrackingIntroComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4F1ED282C90AF003B7048 /* Project Tracking Intro Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Tracking Intro Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4F1F3282C90AF003B7048 /* Project Tracking Intro Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Tracking Intro Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F1F5282C90AF003B7048 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90D4F1E5282C90AE003B7048 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90D4F1E6282C90AE003B7048 /* ProjectTrackingIntroComponentApp.swift */,
-				90D4F1E7282C90AE003B7048 /* ContentView.swift */,
-				90D4F1E8282C90AF003B7048 /* Assets.xcassets */,
+				90D4F206282C90CD003B7048 /* Models */,
+				90D4F205282C90C8003B7048 /* Views */,
+				90D4F204282C90C1003B7048 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90D4F1EE282C90AF003B7048 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90D4F1ED282C90AF003B7048 /* ProjectTrackingIntroComponent.app */,
-				90D4F1F3282C90AF003B7048 /* ProjectTrackingIntroComponent.app */,
+				90D4F1ED282C90AF003B7048 /* Project Tracking Intro Component.app */,
+				90D4F1F3282C90AF003B7048 /* Project Tracking Intro Component.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90D4F204282C90C1003B7048 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F1E6282C90AE003B7048 /* ProjectTrackingIntroComponentApp.swift */,
+				90D4F1E8282C90AF003B7048 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90D4F205282C90C8003B7048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F1E7282C90AE003B7048 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90D4F206282C90CD003B7048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90D4F1EC282C90AF003B7048 /* ProjectTrackingIntroComponent (iOS) */ = {
+		90D4F1EC282C90AF003B7048 /* Project Tracking Intro Component (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D4F1FE282C90AF003B7048 /* Build configuration list for PBXNativeTarget "ProjectTrackingIntroComponent (iOS)" */;
+			buildConfigurationList = 90D4F1FE282C90AF003B7048 /* Build configuration list for PBXNativeTarget "Project Tracking Intro Component (iOS)" */;
 			buildPhases = (
 				90D4F1E9282C90AF003B7048 /* Sources */,
 				90D4F1EA282C90AF003B7048 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "ProjectTrackingIntroComponent (iOS)";
+			name = "Project Tracking Intro Component (iOS)";
 			productName = "ProjectTrackingIntroComponent (iOS)";
-			productReference = 90D4F1ED282C90AF003B7048 /* ProjectTrackingIntroComponent.app */;
+			productReference = 90D4F1ED282C90AF003B7048 /* Project Tracking Intro Component.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90D4F1F2282C90AF003B7048 /* ProjectTrackingIntroComponent (macOS) */ = {
+		90D4F1F2282C90AF003B7048 /* Project Tracking Intro Component (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D4F201282C90AF003B7048 /* Build configuration list for PBXNativeTarget "ProjectTrackingIntroComponent (macOS)" */;
+			buildConfigurationList = 90D4F201282C90AF003B7048 /* Build configuration list for PBXNativeTarget "Project Tracking Intro Component (macOS)" */;
 			buildPhases = (
 				90D4F1EF282C90AF003B7048 /* Sources */,
 				90D4F1F0282C90AF003B7048 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "ProjectTrackingIntroComponent (macOS)";
+			name = "Project Tracking Intro Component (macOS)";
 			productName = "ProjectTrackingIntroComponent (macOS)";
-			productReference = 90D4F1F3282C90AF003B7048 /* ProjectTrackingIntroComponent.app */;
+			productReference = 90D4F1F3282C90AF003B7048 /* Project Tracking Intro Component.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90D4F1E4282C90AE003B7048 /* Build configuration list for PBXProject "ProjectTrackingIntroComponent" */;
+			buildConfigurationList = 90D4F1E4282C90AE003B7048 /* Build configuration list for PBXProject "Project Tracking Intro Component" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90D4F1EC282C90AF003B7048 /* ProjectTrackingIntroComponent (iOS) */,
-				90D4F1F2282C90AF003B7048 /* ProjectTrackingIntroComponent (macOS) */,
+				90D4F1EC282C90AF003B7048 /* Project Tracking Intro Component (iOS) */,
+				90D4F1F2282C90AF003B7048 /* Project Tracking Intro Component (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ProjectTrackingIntroComponent;
-				PRODUCT_NAME = ProjectTrackingIntroComponent;
+				PRODUCT_NAME = "Project Tracking Intro Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ProjectTrackingIntroComponent;
-				PRODUCT_NAME = ProjectTrackingIntroComponent;
+				PRODUCT_NAME = "Project Tracking Intro Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ProjectTrackingIntroComponent;
-				PRODUCT_NAME = ProjectTrackingIntroComponent;
+				PRODUCT_NAME = "Project Tracking Intro Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ProjectTrackingIntroComponent;
-				PRODUCT_NAME = ProjectTrackingIntroComponent;
+				PRODUCT_NAME = "Project Tracking Intro Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90D4F1E4282C90AE003B7048 /* Build configuration list for PBXProject "ProjectTrackingIntroComponent" */ = {
+		90D4F1E4282C90AE003B7048 /* Build configuration list for PBXProject "Project Tracking Intro Component" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F1FC282C90AF003B7048 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D4F1FE282C90AF003B7048 /* Build configuration list for PBXNativeTarget "ProjectTrackingIntroComponent (iOS)" */ = {
+		90D4F1FE282C90AF003B7048 /* Build configuration list for PBXNativeTarget "Project Tracking Intro Component (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F1FF282C90AF003B7048 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D4F201282C90AF003B7048 /* Build configuration list for PBXNativeTarget "ProjectTrackingIntroComponent (macOS)" */ = {
+		90D4F201282C90AF003B7048 /* Build configuration list for PBXNativeTarget "Project Tracking Intro Component (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F202282C90AF003B7048 /* Debug */,

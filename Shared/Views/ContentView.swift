@@ -11,9 +11,14 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .top) {
             BackgroundView()
-            VStack {
+            VStack(alignment: .leading) {
                 TopNavigationView()
                 IllustrationView()
+                VStack(alignment: .leading) {
+                    CaptionView()
+                    
+                }
+                .padding(24)
             }
         }
     }

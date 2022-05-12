@@ -16,6 +16,7 @@
 		90D4F208282C9267003B7048 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F207282C9267003B7048 /* BackgroundView.swift */; };
 		90D4F20A282C939A003B7048 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F209282C939A003B7048 /* TopNavigationView.swift */; };
 		90D4F20C282C944B003B7048 /* IllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F20B282C944B003B7048 /* IllustrationView.swift */; };
+		90D4F20E282C949D003B7048 /* CaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F20D282C949D003B7048 /* CaptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90D4F207282C9267003B7048 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		90D4F209282C939A003B7048 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90D4F20B282C944B003B7048 /* IllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustrationView.swift; sourceTree = "<group>"; };
+		90D4F20D282C949D003B7048 /* CaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				90D4F207282C9267003B7048 /* BackgroundView.swift */,
 				90D4F209282C939A003B7048 /* TopNavigationView.swift */,
 				90D4F20B282C944B003B7048 /* IllustrationView.swift */,
+				90D4F20D282C949D003B7048 /* CaptionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				90D4F208282C9267003B7048 /* BackgroundView.swift in Sources */,
 				90D4F1F8282C90AF003B7048 /* ContentView.swift in Sources */,
 				90D4F1F6282C90AF003B7048 /* ProjectTrackingIntroComponentApp.swift in Sources */,
+				90D4F20E282C949D003B7048 /* CaptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@ struct ContentView: View {
                 VStack(alignment: .leading) {
                     CaptionView()
                     TitleView()
+                    ButtonsView()
                 }
                 .padding(24)
             }
